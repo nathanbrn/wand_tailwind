@@ -1,0 +1,18 @@
+{
+  "name": "cyber_inertia",
+  "private": true,
+  "scripts": {
+    "start":"bundle exec vite dev"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1",
+    "vite-plugin-ruby": "^5.0.0"
+  },
+  "dependencies": {
+    "@inertiajs/inertia": "^0.11.1",
+    "@inertiajs/progress": "^0.2.7",
+    "@inertiajs/vue3": "^1.2.0",
+    "vue": "^3.4.30"
+  }
+}
