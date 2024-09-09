@@ -45,6 +45,7 @@ const checkMessage=(flash)=>{
         <ul>
           <li><Link href="/">Início</Link></li>
           <li><Link href="/categories/">Categorias</Link></li>
+          <li><Link href="/users/">Usuários</Link></li>
           <li><Link href="/entries/new?tipo=1">Nova receita</Link></li>
           <li><Link href="/entries/new?tipo=2">Nova despesa</Link></li>
         </ul>
