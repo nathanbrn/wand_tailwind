@@ -3,7 +3,7 @@ module.exports = {
     './app/views/**/*.html.erb',
     './app/helpers/**/*.rb',
     './app/javascript/**/*.js',
-    './app/javascript/**/*.vue',
+    './app/frontend/**/*.vue',
   ],
   theme: {
     extend: {},
