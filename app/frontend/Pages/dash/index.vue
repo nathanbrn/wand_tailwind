@@ -29,16 +29,16 @@ export default {
 };
 </script>
 <template>
-  <div class="top-dash">
-    <div class="content-cards-info">
-      <header>
+  <div class="px-3.75 relative before:content-[''] before:block before:h-35 before:bg-bs-purple before:absolute before:left-0 before:top-0 before:right-0">
+    <div class="bg-bs-white shadow-bs-1 rounded-lg-2 pt-5 pb-7.5 px-6 relative z-1 flex flex-wrap">
+      <header class="flex-t-2 max-w-full text-xl border-b border-b-['#ddd'] mb-5 pb-4.5">
         Resumo dos lançamentos
       </header>
-      <div class="wrapper-card-resume d-flex">
-        <div v-for="(card, k) in cards" class="card-resume" :key="k" @click="goTo(card)" :class="{'link-listagem':card.tipo}">
-          <div class="box-resumo">
-            <span>{{ card.title }} <i v-if="card.tipo" class="fa-solid fa-chevron-right"></i> </span>
-            <span>{{ $formatCurrency(card.total) }}</span>
+      <div class="w-full flex gap-3.5 flex-wrap">
+        <div v-for="(card, k) in cards" class="flex-t-3 max-w-1/4" :key="k" @click="goTo(card)" :class="{'hover:shadow-bs-1 cursor-pointer ':card.tipo}">
+          <div class="shadow-bs-2 flex flex-wrap flex-1 rounded-lg p-3.75 transition-all duration-100">
+            <span class="flex justify-between items-center w-full mb-2.5 text-bs-gray-600">{{ card.title }} <i v-if="card.tipo" class="fa-solid fa-chevron-right"></i> </span>
+            <span class="flex justify-between items-center w-full">{{ $formatCurrency(card.total) }}</span>
           </div>
         </div>
       </div>
