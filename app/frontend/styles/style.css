@@ -69,12 +69,3 @@
   flex: 1;
   overflow-x: hidden;
 }
-
-.btn-fin-default{
-  color: var(--bs-white);
-  background-color: var(--bs-purple);
-}
-.btn-fin-default:hover{
-  color: var(--bs-white);
-  background-color: var(--bs-indigo);
-}

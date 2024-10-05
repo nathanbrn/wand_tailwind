@@ -13,7 +13,7 @@
             <td>{{ category.name }}</td>
             <td class="text-end">
               <div class="btn-group">
-                <Link :href="`/categories/${category.id}/edit`" class="btn btn-fin-default btn-sm" >Editar</Link>
+                <Link :href="`/categories/${category.id}/edit`" class="btn text-bs-white bg-bs-purple hover:bg-bs-indigo hover:text-bs-white btn-sm" >Editar</Link>
                 <Link :href="`/categories/${category.id}`" class="btn btn-danger btn-sm" method="delete" as="button">Excluir</Link>
               </div>
             </td>

@@ -11,6 +11,7 @@ module.exports = {
         'bs-purple': '#6f42c1',
         'bs-white': '#fff',
         'bs-gray-600': '#6c757d',
+        'bs-indigo': '#6610f2'
       },
       padding: {
         3.5: '0.875rem',
